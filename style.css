@@ -145,11 +145,11 @@ body {
     }    
 }
 
-body, .page-wrapper:before, .page-wrapper:after {
-    background: #3c1d08 url('kiss.jpg') no-repeat fixed 50% top;
+.page-wrapper:before, .page-wrapper:after {
+    background: #3c1d08 url('images/kiss.jpg') no-repeat fixed 50% top;
 }
 .page-wrapper, .intro:after, .supporting div, .supporting footer {
-    background: #fceec6 url('kiss_light.jpg') no-repeat fixed 50% top;
+    background: #fceec6 url('images/kiss_light.jpg') no-repeat fixed 50% top;
 }
 /*  Somewhat torn about these bg images.
     
@@ -250,12 +250,12 @@ header[role=banner] {
     left: 50%;
     margin-left: -35px;
     display: block;
-    background: url('heart-and-lips.png') no-repeat 50% top;
+    background: url('images/heart-and-lips.png') no-repeat 50% top;
 }
 
 .preamble h3 {
     padding-bottom: 60px;
-    background: url('heart-and-lips.png') no-repeat 50% bottom;
+    background: url('images/heart-and-lips.png') no-repeat 50% bottom;
 }
 
 .preamble h3:before, .preamble h3:after {
@@ -307,8 +307,10 @@ h1 {
         -webkit-box-shadow: 0 0 8px #000;
            -moz-box-shadow: 0 0 8px #000;
                 box-shadow: 0 0 8px #000;
+         transition: all 2s;
 
     }
+    
     .summary {
         padding: 0 0 .1em;
     }
@@ -335,6 +337,13 @@ h2 {
         color:#fff;
         text-shadow: 0 0 4px rgba(68,0,32,0.6);
         filter: progid:DXImageTransform.Microsoft.Shadow(color='#aa3355',direction=135,strength=1);
+        transition: all 2s;
+    }
+    h2:hover{
+        
+        Color:rgb(234,65,0);
+        font-size: 60px;
+        
     }
     h2:before {
         content: 'of';
@@ -371,7 +380,15 @@ h2 {
         right: 3.1em;
     }
 
-}
+   body header div p{
+         transition: all 2s;
+    }
+    
+    body header div p:hover{
+         Color:rgb(234,65,0);
+        font-size: 60px;
+        
+    }
 
 @media screen and (min-width: 840px) {
     header[role=banner], .summary {
@@ -418,7 +435,7 @@ h2 {
         -webkit-border-radius: 50%;
            -moz-border-radius: 50%;
                 border-radius: 50%;
-        background: url('heart-and-lips.png') no-repeat 50% top, url('kiss.jpg') no-repeat fixed 50% top;
+        background: url('images/heart-and-lips.png') no-repeat 50% top, url('images/kiss.jpg') no-repeat fixed 50% top;
     }
     .summary p:last-child {
         font-family: Georgia, serif;
@@ -550,7 +567,7 @@ h2 {
        -moz-box-shadow: inset 0 0 18px rgba(70,15,35,0.8);
             box-shadow: inset 0 0 18px rgba(70,15,35,0.8);
 
-    background-image: url('story.gif');
+    background-image: url('images/story.gif');
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -983,10 +1000,10 @@ div[class^=design] a, div[class^=zen] a {
         right: 2em;
         width: 310px;
         height: 30px;
-        background: url('border.png') no-repeat 50% bottom;
+        background: url('images/border.png') no-repeat 50% bottom;
     }
     .sidebar .design-archives h3 {
-        background: #771139 url('heart-and-lips.png') no-repeat 10% -450px;
+        background: #771139 url('images/heart-and-lips.png') no-repeat 10% -450px;
         -webkit-box-shadow: none;
            -moz-box-shadow: none;
                 box-shadow: none;
@@ -997,7 +1014,7 @@ div[class^=design] a, div[class^=zen] a {
     .sidebar .design-archives ul {
         max-width: 310px;
         margin: 0 0 0 auto;
-        background: #fceec6 url('kiss_light.jpg') no-repeat fixed 50% top;
+        background: #fceec6 url('images/kiss_light.jpg') no-repeat fixed 50% top;
     }
     .sidebar .design-selection nav {
         height: 280px;
