@@ -146,7 +146,7 @@ body {
 }
 
 .page-wrapper:before, .page-wrapper:after {
-    background: #3c1d08 url('images/kiss.jpg') no-repeat fixed 50% top;
+    background: #3c1d08 url('images/DSC_2026.JPG') no-repeat fixed 50% top;
 }
 .page-wrapper, .intro:after, .supporting div, .supporting footer {
     background: #fceec6 url('images/kiss_light.jpg') no-repeat fixed 50% top;
@@ -339,7 +339,8 @@ h2 {
         filter: progid:DXImageTransform.Microsoft.Shadow(color='#aa3355',direction=135,strength=1);
         transition: all 2s;
     }
-    h1,h2:hover{
+
+   img,h1,h2:hover{
         
         Color:rgb(234,65,0);
         font-size: 60px;
@@ -435,7 +436,7 @@ h2 {
         -webkit-border-radius: 50%;
            -moz-border-radius: 50%;
                 border-radius: 50%;
-        background: url('images/heart-and-lips.png') no-repeat 50% top, url('images/kiss.jpg') no-repeat fixed 50% top;
+        background: url('images/heart-and-lips.png') no-repeat 50% top, url('images/DSC_2026.JPG') no-repeat fixed 50% top;
     }
     .summary p:last-child {
         font-family: Georgia, serif;
